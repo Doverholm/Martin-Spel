@@ -1,0 +1,295 @@
+:root {
+  --color1: #184d47;
+  --color2: #96bb7c;
+  --color3: #d6efc7;
+  --color4: #fad586;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--color1);
+}
+
+/*-----------------------------------------------*/
+
+.container-spel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 60px;
+  color: var(--color3);
+}
+
+.ruta {
+  background-color: var(--color2);
+  height: 600px;
+  width: 1000px;
+  border-radius: 50px;
+  flex-direction: column;
+
+}
+
+.bild-ruta {
+  display: flex;
+  height: 450px;
+  background-color: var(--color4);
+  border-radius: 50px 50px 0px 0px;
+}
+
+.text-ruta {
+  background-color: var(--color3);
+  width: auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.text-ruta p {
+  text-align: center;
+  width: 900px;
+
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn-play {
+  margin: 20px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: var(--color4);
+  border-radius: 30px;
+}
+
+.btn-play:hover {
+  background-color: var(--color3);
+}
+
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button:focus {
+  outline: none;
+}
+
+.liv {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  right: 50px;
+}
+
+.liv-bild {
+  width: 100px;
+  height: 100px;
+}
+
+.liv-nummer {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color3);
+}
+
+/*---------------------------------------------------------------*/
+
+.container-start {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  margin-top: -200px;
+  left: 50%;
+  margin-left: -200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.btn-start {
+  background-color: var(--color4);
+  border: none;
+  margin: 50px;
+  width: 400px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+.btn-start:focus {
+  outline: none;
+}
+
+.btn-start:hover {
+  background-color: var(--color3);
+}
+
+/*---------------------------------------------------------*/
+
+.container-form {
+  background-color: var(--color4);
+  width: 600px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+
+.form {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form h2 {
+  font-size: 40px;
+}
+
+.form .input {
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.form .input:focus {
+  outline: none;
+  background: lightgrey;
+}
+
+.btn-form {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-form:hover {
+  background-color: lightgrey;
+}
+
+.btn-form:focus {
+  outline: none;
+}
+
+/*------------------------------------------------------------------*/
+
+.container-regler {
+  background-color: var(--color4);
+  width: 600px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-regler h2 {
+  margin-top: 50px;
+}
+
+.container-regler h3 {
+  margin-top: 80px;
+}
+
+.btn-regler {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+
+.btn-regler:focus {
+  outline: none;
+}
+
+.btn-regler:hover {
+  background-color: lightgrey;
+}
+
+.text-regler {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.hälsning {
+  display: flex;
+  justify-content: center;
+}
+
+.text-fNamn {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.fs {
+  font-size: 20px;
+}
+
+/*------------------------------------------------------------------*/
+
+div.fadeout {
+  opacity: 0;
+  pointer-events: none;
+}
+
+div.fadein {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
